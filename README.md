@@ -1,24 +1,9 @@
-# README
+# Inertia on Rails Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a minimal installation of Ruby on Rails, Vite, and InertiaJS. (It also uses the Tailwind Play CDN for some simple styling).
 
-Things you may want to cover:
+To run locally:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`bundle install`
+`npm install`
+`foreman -f Procfile.dev`
