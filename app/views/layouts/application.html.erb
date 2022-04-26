@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html class="h-full bg-gray-100">
   <head>
-    <title>InertiaTemplate</title>
+    <title>Inertia Rails Template</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <%= stylesheet_link_tag "application" %>
     <%= vite_client_tag %>
-    <%= vite_javascript_tag 'application' %>
+    <%= vite_react_refresh_tag %>
+    <%= vite_javascript_tag 'application.jsx' %>
     <!--
       If using a TypeScript entrypoint file:
         vite_typescript_tag 'application'
@@ -21,7 +24,7 @@
 
   </head>
 
-  <body>
+  <body class="h-full">
     <%= yield %>
   </body>
 </html>
