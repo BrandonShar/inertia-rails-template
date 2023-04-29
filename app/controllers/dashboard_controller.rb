@@ -4,4 +4,8 @@ class DashboardController < ApplicationController
       name: 'Inertia Rails'
     }
   end
+
+  def show
+    render inertia: 'Show'
+  end
 end
